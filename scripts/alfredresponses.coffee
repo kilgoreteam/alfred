@@ -5,3 +5,6 @@ module.exports = (robot) ->
 
    robot.hear /set alarm/i, (res) ->
      res.send "alarm"
+
+   robot.hear /sleep sound/i, (res) ->
+     res.send "sleep"
