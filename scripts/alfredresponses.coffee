@@ -8,3 +8,12 @@ module.exports = (robot) ->
 
    robot.hear /sleep sound/i, (res) ->
      res.send "sleep"
+
+   robot.hear /fart/i, (res) ->
+     res.send "Who farted"
+
+   robot.hear /todays date/i, (res) ->
+     res.send "slaptemper seventeenthh"
+
+   robot.hear /temperature/i, (res) ->
+     res.send "72F"
